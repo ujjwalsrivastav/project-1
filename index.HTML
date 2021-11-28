@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gobal Libary</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+
+    body {
+        font-family: 'Baloo Bhai', cursive;
+        background: url(/img/jpg.png\ .jpg);
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        text-transform: capitalize;
+    }
+
+    
+    .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .fa:hover {
+        opacity: 0.7;
+    }
+
+    
+    .fa-facebook {
+        height: 15px;
+        position: absolute;
+        right: 103px;
+        top: 103px;
+        background:none;
+        color: white;
+    }
+
+   
+    .fa-twitter {
+        position: absolute;
+        height: 15px;
+        right: 13px;
+        top: 103px;
+        background:none;
+        color: white;
+    }
+
+    .left {
+        display: inline-block;
+      
+        position: absolute;
+        left: 35px;
+        top: 36px;
+        font-size: 20px;
+        /* width: 20px; */
+    }
+
+    .left div {
+        line-height: 5px;
+        font-size: 20px;
+    }
+
+
+    .left img {
+        width: 89px;
+        filter: invert 0%;
+
+    }
+
+    .mid {
+        /* border: 2px solid orange; */
+        display: block;
+        width: 33%;
+        margin: 35px auto;
+    }
+
+    .right {
+        /* border: 2px solid pink; */
+        display: inline-block;
+        position: absolute;
+        right: 35px;
+        top: 36px;
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 14px;
+    }
+
+    .navbar li a {
+
+        color: white;
+        text-decoration: none;
+        padding: 17px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: none;
+        color: grey;
+    }
+
+    .btn {
+        font-family: 'Baloo Bhai', cursive;
+        cursor: pointer;
+        border-radius: 8px;
+        padding: 4px 14px;
+        color: white;
+        background: grey;
+
+        margin: 2px;
+    }
+
+    .btn:hover {
+        background-color: rgb(144, 104, 104);
+
+    }
+
+    .container {
+        display: block;
+        width: 33%;
+        /* border: 2px solid green; */
+        margin: 135px 104px;
+        padding: 19px 19px;
+        border-radius: 10px;
+
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .form-group input {
+        font-family: 'Baloo Bhai', cursive;
+        text-align: center;
+        display: block;
+        margin: 11px auto;
+        padding: 7px 8px;
+        font-size: 19px;
+        border: 2px solid white;
+        border-radius: 10px;
+
+    }
+
+    .container .btn {
+        display: block;
+        margin: 37px auto;
+        width: 43%;
+        text-align: center;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="img/logo.png.jpg" alt="">
+            <div>Gobal Libary</div>
+
+        </div>
+        <div class="mid">
+
+            <div class="navbar">
+                <li><a href="#" class="active"><i class="fa fa-home"></i>Home</a> </li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Book-Detail</a></li>
+                <li><a href="#">Contact</a></li>
+            </div>
+        </div>
+        <div> <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+        </div>
+
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Welcome to Gobal libary</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+                <input type="text" name="" placeholder="Enter your AGE">
+                <input type="text" name="" placeholder="Enter your SEX">
+                <input type="text" name="" placeholder="Enter your Contact Details">
+                <input type="text" name="" placeholder="Enter your Email iD">
+            </div>
+            <div class="btn">Submit</div>
+
+        </form>
+    </div>
+</body>
+
+</html>
